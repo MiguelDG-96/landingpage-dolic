@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Reset y estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/main-fondo.png');
+  background-repeat: no-repeat;
+}
+
+/* Estilos generales */
+body {
+  font-family: "Monda", sans-serif;
+  height: 100vh;
+}
+
+/* Header */
+.header {
+  color: #fff;
+}
+
+.header-container {
+  padding: 2% 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+img {
+  width: 6rem;
+}
+
+/* Nav-bar */
+.nav-bar {
+  background-color: #963CE3; /* Ahora el fondo es morado */
+  border-radius: 50px;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Lista de navegación */
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+/* Botón Productos Activo */
+.nav-list a.active {
+  background: #F3EEFF;
+  color: #963CE3;
+  border-radius: 50px;
+  transition: color 0.5s ease;
+}
+
+
+
+/* Sección principal */
+.main-container {
+  width: 60%;
+  margin: 6% auto;
+  padding: 0 5%;
+  text-align: center;
+  background: transparent;
+}
+
+/* Título */
+.titulo {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 60px;
+  margin-bottom: 1rem;
+  color: #F3EEFF;
+  background: transparent;
+}
+
+/* Descripción */
+.descripcion {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  padding: 0 12%;
+  background: transparent;
+  padding-bottom: 2rem;
+}
+
+/* Botón Demo */
+.button-demo,
+.button-sesion {
+  background: #963CE3;
+  color: #fff;
+  font-size: 16px;
+  width: 30%;
+  padding: 0.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 2px solid #DCD3D3;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-sesion {
+  width: 12%;
+}
+
+.button-demo:hover,
+.button-sesion:hover {
+  background: #F3EEFF;
+  color: #963CE3;
+  box-shadow: 2px 2px 20px #000;
+}
+
+footer{
+  padding: 3% 16%;
+  text-align: center;
+  background: #B470EB;
+}
